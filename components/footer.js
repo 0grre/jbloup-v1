@@ -1,16 +1,41 @@
-import Link from "next/link";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
     return(
-        <footer className="footer">
-            <div className="content has-text-centered">
-                <p>
-                    <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
-                    licensed
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                    is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        <>
+            <section className="section">
+                <p className="title has-text-centered">
+                    <a className="" href="#header">
+                    <span className="icon is-large">
+                        <FontAwesomeIcon icon={['fa', 'arrow-circle-up']}/>
+                    </span>
+                    </a>
                 </p>
-            </div>
-        </footer>
+            </section>
+            <footer className="footer has-background-black-bis">
+                <div className="content has-text-centered has-text-white">
+                    <p>
+                        Developped by <strong className="has-text-white">Jean-baptiste Loup</strong> 2021
+                    </p>
+                </div>
+                <div className="has-text-centered">
+                    <a className="has-text-white" href="https://github.com/jbloup">
+                    <span className="icon is-large">
+                        <FontAwesomeIcon icon={['fab', 'github']}/>
+                    </span>
+                    </a>
+                    <a className="has-text-white" href="https://www.linkedin.com/in/jean-baptiste-loup-363941180/">
+                    <span className="icon is-large">
+                        <FontAwesomeIcon icon={['fab', 'linkedin']}/>
+                    </span>
+                    </a>
+                    <a className="has-text-white" href="mailto:https://aemail.com/qx00">
+                    <span className="icon is-large">
+                        <FontAwesomeIcon icon={['fa', 'envelope']}/>
+                    </span>
+                    </a>
+                </div>
+            </footer>
+        </>
     )
 }
