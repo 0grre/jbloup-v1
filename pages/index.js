@@ -9,7 +9,6 @@ library.add(fas, fab);
 import {getPagesName} from "../lib/contents";
 import Link from "next/link";
 
-
 export default function Home({ allPagesNames}) {
 
   return (
@@ -18,7 +17,7 @@ export default function Home({ allPagesNames}) {
             <ul>
                 <li  className="is-active" >
                     <a href="/">
-                        <span>Home</span>
+                        <span>Accueil</span>
                     </a>
                 </li>
                 {allPagesNames.map(({ name }) => (
@@ -67,7 +66,7 @@ export default function Home({ allPagesNames}) {
         </section>
         <div className="divider subtitle">Informations</div>
         <div id="infos" className="container is-max-desktop mb-6">
-            <div className="level is-mobile subtitle">
+            <div className="level is-mobile">
                 <div className="level-item is-flex-direction-column">
                     <a href="https://github.com/jbloup">
                     <span className="icon is-large">
@@ -136,8 +135,8 @@ export default function Home({ allPagesNames}) {
                 <h2 className="title has-text-centered has-text-white">Compétences</h2>
             </div>
             <div className="hero-body">
-            <div className="container is-max-desktop">
-                <nav className="level is-mobile has-text-white title">
+            <div className="container adjust">
+                <div className="level has-text-white title">
                     <div className="level-item">
                     <span className="icon is-large">
                         <FontAwesomeIcon icon={['fab', 'php']}/>
@@ -188,7 +187,7 @@ export default function Home({ allPagesNames}) {
                         <FontAwesomeIcon icon={['fab', 'windows']}/>
                     </span>
                     </div>
-                </nav>
+                </div>
             </div>
             </div>
         </section>

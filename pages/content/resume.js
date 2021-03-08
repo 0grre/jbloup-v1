@@ -20,7 +20,7 @@ export default function Resume({ experiencesList, educationsList, softSkillsList
                 <ul>
                     <li>
                         <a href="/">
-                            <span>Home</span>
+                            <span>Accueil</span>
                         </a>
                     </li>
                     {allPagesNames.map(({ name }) => (
@@ -53,9 +53,9 @@ export default function Resume({ experiencesList, educationsList, softSkillsList
 
             <section className="section has-background-light">
                 <div className="divider title">Hard Skills</div>
-                <div id="hardSkills" className="container is-max-desktop mb-6">
+                <div id="hardSkills" className="container adjust mb-6">
                     <div className="box">
-                        <div className="level is-mobile title">
+                        <div className="level title">
                             <div className="level-item has-text-centered">
                     <span className="icon is-large">
                         <FontAwesomeIcon icon={['fab', 'php']}/>
@@ -171,9 +171,9 @@ export default function Resume({ experiencesList, educationsList, softSkillsList
             </section>
             <section id="hobbies" className="section has-background-light">
                 <div className="divider title">Hobbies</div>
-                <div className="container is-max-desktop mb-6">
+                <div className="container adjust mb-6">
                     <div className="box">
-                        <div className="level is-mobile subtitle">
+                        <div className="level subtitle">
                             <div className="level-item has-text-centered is-flex-direction-column">
                     <span className="icon is-large">
                         <FontAwesomeIcon icon={['fas', 'running']}/>
