@@ -1,7 +1,13 @@
 import Link from "next/link";
 import {getPagesName} from "../../lib/contents";
 import {projects} from "../../contents/data";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import {config, library} from "@fortawesome/fontawesome-svg-core";
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+config.autoAddCss = false;
+library.add(fas, fab);
 
 const pageName = "portfolio"
 
@@ -13,7 +19,7 @@ export default function Portfolio({allPagesNames, projectsList}) {
                 <ul>
                     <li>
                         <a href="/">
-                            <span>Home</span>
+                            <span>Accueil</span>
                         </a>
                     </li>
                     {allPagesNames.map(({ name }) => (
