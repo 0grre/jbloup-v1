@@ -48,12 +48,22 @@ export default function Portfolio({allPagesNames, projectsList}) {
                 <div className="container is-max-desktop mb-6">
 
                         {projectsList.map(project  => (
-                            <div className="box">
-                            <p className="title has-text-centered">{project.name}</p>
-                            <p className="has-text-centered mb-5"><a href={project} >{project.link}</a></p>
-                            <figure className="image is-16by9">
-                                <img src={project.img} alt="{project.description}"/>
+                            <div className="box p-0">
+                            <a href={project.link} className="card mb-6">
+                                <div className="card-header">
+                            <div className="card-image">
+                            <figure className="image is-bordered">
+                                <img src={project.img} alt={project.description}/>
                             </figure>
+                            </div>
+                            </div>
+                            <div className="card-content">
+                            <div className="content">
+                            <p className="title has-text-centered">{project.name}</p>
+                            <p className="subtitle has-text-centered">{project.date}</p>
+                            </div>
+                            </div>
+                            </a>
                             </div>
                         ))}
                 </div>

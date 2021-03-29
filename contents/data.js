@@ -105,27 +105,31 @@ export const softSkills = [
 export const projects = [
     {
         "name": "Jean-Baptiste Loup",
-        "link": "www.jbloup.fr",
+        "link": "https://www.jbloup.fr",
         "description": "Site CV & Portfolio",
-        "img": "/img/jbloup.png"
+        "img": "/img/jbloup.png",
+        "date": "Février 2021"
     },
     {
         "name": "BudGestion",
-        "link": "www.budgestion.fr",
+        "link": "https://www.budgestion.fr",
         "description": "Application Web de gestion de budget et de dépense aevc authentification",
-        "img": "/img/budgestion.png"
+        "img": "/img/budgestion.png",
+        "date": "Janvier 2021"
     },
     {
         "name": "Franck Malecki",
-        "link": "www.franckmalecki.com",
+        "link": "https://www.franckmalecki.com",
         "description": "Site vitrine pour un coach en développement personnel avec un formulaire de contact",
-        "img": "/img/franckmalecki.png"
+        "img": "/img/franckmalecki.png",
+        "date": "Octobre 2020"
     },
     {
         "name": "Ninon Poulain-Fournier",
-        "link": "www.ninon-pf.fr",
+        "link": "https://www.ninon-pf.fr",
         "description": "Site CV",
-        "img": "/img/ninonpf.png"
+        "img": "/img/ninonpf.png",
+        "date": "Février 2020"
     },
 ]
 

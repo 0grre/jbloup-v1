@@ -197,13 +197,12 @@ export default function Home({ allPagesNames}) {
             </div>
             <div className="hero-body">
                 <p className="has-text-centered">Pour voir mes derniers projets c'est par ici &rarr; <a href="/content/portfolio">Portfolio</a>, vous pouvez également suivre mon travail sur <a href="https://github.com/jbloup" >Github</a>.</p>
-                <div className="container is-max-desktop mt-6 box">
-
+                <div className="container is-max-desktop mt-6 box p-0">
                     <figure className="image is-16by9">
                         <iframe className="has-ratio is-fullwidth" src="https://www.franckmalecki.com" frameBorder="0" allowFullScreen/>
                     </figure>
-                    <p className="has-text-centered mt-2">Un de mes projets en production, un site vitrine avec formulaire de contact.</p>
                 </div>
+                <p className="has-text-centered mt-2">Un de mes projets en production, un site vitrine avec formulaire de contact, visible <a href="https://www.franckmalecki.com">ici</a>.</p>
             </div>
         </section>
     </>
