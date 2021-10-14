@@ -2,6 +2,13 @@ export const present = "Autodidacte et de nature autonome, je sais aussi bien tr
 
 export const experiences = [
     {
+        "job": "Développeur Back-end",
+        "society": "Wokine",
+        "town": "Lille",
+        "date": "Septembre 2021 - Aujourd'hui",
+        "description": "Développement back-end Laravel - Vue / Wordpress - Twig."
+    },
+    {
         "job": "Développeur / Consultant gestion",
         "society": "Boresa",
         "town": "Achicourt",
